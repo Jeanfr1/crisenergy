@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  /* Main colors */
+  --neon-green: #39FF14;
+  --neon-green-glow: rgba(57, 255, 20, 0.5);
+  --neon-green-dark: #0A2F1A;
+  --neon-cyan: #00FFCC;
+
+  /* Base colors */
+  --background: #ffffff;
+  --foreground: #171717;
+  --background-dark: #0a0a0a;
+  --foreground-light: #ededed;
+  --gray-light: #F0F0F0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--background-dark);
+    --foreground: var(--foreground-light);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 0.5rem var(--neon-green-glow));
+  }
+  50% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 1rem var(--neon-green-glow));
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes scanline {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.neon-text {
+  color: var(--neon-green);
+  text-shadow: 0 0 5px var(--neon-green-glow), 0 0 10px var(--neon-green-glow);
+}
+
+.neon-border {
+  border: 2px solid var(--neon-green);
+  box-shadow: 0 0 5px var(--neon-green-glow), inset 0 0 5px var(--neon-green-glow);
+}
+
+.neon-button {
+  background-color: transparent;
+  color: var(--neon-green);
+  border: 2px solid var(--neon-green);
+  box-shadow: 0 0 5px var(--neon-green-glow), inset 0 0 5px var(--neon-green-glow);
+  transition: all 0.3s ease;
+}
+
+.neon-button:hover {
+  background-color: var(--neon-green);
+  color: var(--background-dark);
+  box-shadow: 0 0 15px var(--neon-green-glow), inset 0 0 15px var(--neon-green-glow);
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+.scanline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--neon-green-glow);
+  opacity: 0.3;
+  animation: scanline 3s linear infinite;
+  pointer-events: none;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(57, 255, 20, 0.2);
+}
+
+.grid-background {
+  background-image:
+    linear-gradient(to right, rgba(57, 255, 20, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(57, 255, 20, 0.05) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+/* Custom cursor styles */
+.custom-cursor {
+  cursor: none;
+}
+
+/* Hide scrollbar but allow scrolling */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
