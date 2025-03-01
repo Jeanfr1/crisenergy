@@ -1,39 +1,57 @@
 <div align="center">
-  <img src="public/assets/logo.png" alt="CRIS ENERGY Logo" width="200"/>
-  <h1>⚡ CRIS ENERGY ⚡</h1>
-  <p>Transformando energia em um futuro sustentável</p>
+  <img src="public/assets/logo.svg" alt="CRIS ENERGY Logo" width="150"/>
 
-  ![Next.js](https://img.shields.io/badge/Next.js-15.2.0-black?style=for-the-badge&logo=next.js)
-  ![React](https://img.shields.io/badge/React-19.0.0-61DAFB?style=for-the-badge&logo=react)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwind-css)
-  ![Three.js](https://img.shields.io/badge/Three.js-0.174.0-black?style=for-the-badge&logo=three.js)
+  # ⚡ CRIS ENERGY ⚡
+
+  ### *Transformando energia em um futuro sustentável*
+
+  [![Next.js](https://img.shields.io/badge/Next.js-15.2.0-000000?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
+  [![React](https://img.shields.io/badge/React-19.0.0-61DAFB?style=flat-square&logo=react&logoColor=white)](https://reactjs.org/)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+  [![Three.js](https://img.shields.io/badge/Three.js-0.174.0-000000?style=flat-square&logo=three.js&logoColor=white)](https://threejs.org/)
 </div>
-
-## 🌟 Visão Geral
-
-CRIS ENERGY é uma plataforma moderna e inovadora focada em soluções de energia solar compartilhada. O site apresenta uma interface futurística com animações fluidas e visualizações 3D, oferecendo aos usuários uma experiência imersiva enquanto exploram as soluções de energia verde.
 
 <div align="center">
-  <img src="public/assets/screenshot-hero.png" alt="Hero Section" width="800"/>
+  <img src="public/assets/placeholder-hero.svg" alt="CRIS ENERGY Hero" width="100%"/>
 </div>
 
-## ✨ Funcionalidades Principais
+## 📋 Sobre o Projeto
 
-- **Energia Solar Compartilhada**: Acesso à energia limpa sem necessidade de painéis solares próprios
-- **Simulador de Economia**: Calcule quanto pode economizar com energia solar compartilhada
-- **Módulos Especializados**:
-  - **Conexão Green**: Sistema que permite clientes se conectarem à energia solar sem investir em painéis próprios
-  - **Conexão Expansão**: Sistema de expansão da rede de licenciados com bônus por afiliação
-  - **Conexão Telecom**: Soluções de telefonia móvel com práticas sustentáveis
+**CRIS ENERGY** é uma plataforma moderna e inovadora focada em soluções de energia solar compartilhada. Nosso objetivo é democratizar o acesso à energia limpa e sustentável através de tecnologias avançadas e práticas sustentáveis.
+
+<table>
+  <tr>
+    <td align="center"><h3>🌞 100+</h3>Usinas Solares</td>
+    <td align="center"><h3>👥 90.000+</h3>Clientes</td>
+    <td align="center"><h3>💰 R$6bi+</h3>Investimento</td>
+  </tr>
+</table>
+
+## 🚀 Funcionalidades Principais
+
+<div align="center">
+  <img src="public/assets/placeholder-solutions.svg" alt="CRIS ENERGY Solutions" width="100%"/>
+</div>
+
+### 🔌 Conexão Green
+Sistema que permite clientes se conectarem à energia solar sem investir em painéis próprios. A CRIS ENERGY injeta a energia gerada em suas usinas na rede da distribuidora, proporcionando economia sem investimentos iniciais.
+
+### 🔄 Conexão Expansão
+Sistema de expansão da rede de licenciados com bônus por afiliação. Licenciados podem conectar novos licenciados diretamente ou por meio de sua equipe, recebendo bônus imediatos e recorrentes proporcionais à atividade e desempenho da sua rede.
+
+### 📱 Conexão Telecom
+Soluções de telefonia móvel com práticas sustentáveis. A operadora adota práticas ecológicas que contribuem para a preservação do meio ambiente, alinhando-se aos princípios da energia verde, com tarifas competitivas e planos adaptáveis.
+
+## 💡 Benefícios
+
+- **Economia Significativa**: Reduza até 95% na conta de energia
+- **Sem Investimento Inicial**: Não é necessário instalar painéis solares
 - **Monitoramento em Tempo Real**: Acompanhe seu consumo de energia solar
-- **Design Responsivo**: Experiência perfeita em todos os dispositivos
+- **Créditos de Energia**: Aplicados diretamente na sua conta de luz
+- **Sustentabilidade**: Contribua para um planeta mais verde
 
-<div align="center">
-  <img src="public/assets/screenshot-solutions.png" alt="Solutions Section" width="800"/>
-</div>
-
-## 🚀 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 Este projeto foi construído com tecnologias de ponta para garantir performance, escalabilidade e uma experiência de usuário excepcional:
 
@@ -53,13 +71,7 @@ Este projeto foi construído com tecnologias de ponta para garantir performance,
 - **React Hook Form**: Gerenciamento de formulários com validação
 - **Sonner**: Biblioteca de notificações toast minimalista
 
-<div align="center">
-  <img src="public/assets/screenshot-benefits.png" alt="Benefits Section" width="800"/>
-</div>
-
 ## 💻 Instalação e Uso
-
-Siga estas etapas para configurar o projeto localmente:
 
 ```bash
 # Clone o repositório
@@ -91,25 +103,17 @@ crisenergy/
 │   │   └── ui/        # Componentes de UI reutilizáveis
 ```
 
-<div align="center">
-  <img src="public/assets/screenshot-simulator.png" alt="Simulator Section" width="800"/>
-</div>
-
-## 📱 Responsividade
-
-O site é totalmente responsivo, proporcionando uma experiência perfeita em dispositivos móveis, tablets e desktops.
-
-<div align="center">
-  <img src="public/assets/screenshot-mobile.png" alt="Mobile View" width="300"/>
-</div>
-
 ## 📞 Contato
 
-Para mais informações sobre este projeto, entre em contato:
-
-- **Email**: crisrenovaveis@gmail.com
-- **WhatsApp**: (34) 99828-8579
-- **Endereço**: R. Tupaciguara, 274 - Nossa Sra. Aparecida, Uberlândia - MG, 38400-618
+<table>
+  <tr>
+    <td>
+      <strong>Email:</strong> <a href="mailto:crisrenovaveis@gmail.com">crisrenovaveis@gmail.com</a><br>
+      <strong>WhatsApp:</strong> <a href="https://wa.me/5534998288579">(34) 99828-8579</a><br>
+      <strong>Endereço:</strong> R. Tupaciguara, 274 - Nossa Sra. Aparecida, Uberlândia - MG, 38400-618
+    </td>
+  </tr>
+</table>
 
 ## 📄 Licença
 
@@ -118,5 +122,16 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para d
 ---
 
 <div align="center">
+  <p>
+    <a href="https://www.facebook.com/igreen.energy.facebook#" target="_blank">
+      <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+    </a>
+    <a href="https://www.instagram.com/crisrenovaveis/" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="mailto:crisrenovaveis@gmail.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
   <p>Desenvolvido com ❤️ por Jean Pereira</p>
 </div>
